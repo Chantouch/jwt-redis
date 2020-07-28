@@ -1,6 +1,6 @@
 # jwt-redis
 
-This library completely repeats the entire functionality of the library [jsonwebtoken] (https://www.npmjs.com/package/jsonwebtoken), with one important addition.
+This library completely repeats the entire functionality of the library [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken), with one important addition.
 Jwt-redis allows you to store the token label in redis to verify validity.
 The absence of a token label in redis makes the token not valid. To destroy the token in **jwt-redis**, there is a destroy method.
 This makes it possible to make a token not valid until it expires.
