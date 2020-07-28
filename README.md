@@ -6,6 +6,11 @@ The absence of a token label in redis makes the token not valid. To destroy the 
 This makes it possible to make a token not valid until it expires.
 Jwt-redis support [node_redis](https://www.npmjs.com/package/redis) client.
 
+[![Build Status](https://travis-ci.org/Chantouch/jwt-redis.svg?branch=master)](https://travis-ci.org/Chantouch/jwt-redis.svg?branch=master)
+[![Latest Version on NPM](https://img.shields.io/npm/v/@chantouchsek/jwt-redis.svg?style=flat-square)](https://npmjs.com/package/@chantouchsek/jwt-redis)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
+[![npm](https://img.shields.io/npm/dt/@chantouchsek/jwt-redis.svg?style=flat-square)](https://npmjs.com/package/@chantouchsek/jwt-redis)
+[![npm](https://img.shields.io/npm/dm/@chantouchsek/jwt-redis.svg?style=flat-square)](https://npmjs.com/package/@chantouchsek/jwt-redis)
 
 # Installation
 
