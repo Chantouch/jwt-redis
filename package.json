@@ -1,0 +1,60 @@
+{
+  "name": "@chantouchsek/jwt-redis",
+  "version": "0.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "yarn clean && tsc",
+    "start": "ts-node-dev -r tsconfig-paths/register src/JwtRedis.ts",
+    "prepare": "npm run build",
+    "test": "jest --coverage",
+    "release": "yarn prepare && standard-version && git push --follow-tags && npm publish"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "Chantouch Sek <chantouchsek.cs83@gmail.com>",
+  "license": "ISC",
+  "keywords": [
+    "jwt",
+    "redis",
+    "node",
+    "nodejs",
+    "jwt-blacklist",
+    "jsonwebtoken"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Chantouch/jwt-redis.git"
+  },
+  "bugs": {
+    "url": "git://github.com/Chantouch/jwt-redis.git/issues",
+    "email": "chantouchsek.cs83@gmail.com"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-typescript": "^7.10.4",
+    "@types/jest": "^26.0.7",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/redis": "^2.8.25",
+    "babel-jest": "^26.1.0",
+    "jest": "^26.1.0",
+    "redis-mock": "^0.50.0",
+    "rimraf": "^3.0.2",
+    "semantic-release": "^17.1.1",
+    "ts-jest": "^26.1.4",
+    "ts-node-dev": "^1.0.0-pre.56",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1"
+  },
+  "peerDependencies": {
+    "@types/redis": "^2.8.25",
+    "redis": "^3.0.2"
+  }
+}
