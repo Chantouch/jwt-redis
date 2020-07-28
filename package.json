@@ -10,7 +10,7 @@
     "start": "ts-node-dev -r tsconfig-paths/register src/JwtRedis.ts",
     "prepare": "npm run build",
     "test": "jest --coverage",
-    "release": "yarn prepare && standard-version && git push --follow-tags && npm publish"
+    "release": "yarn prepare && semantic-release && git push --follow-tags && npm publish"
   },
   "files": [
     "dist"
@@ -27,12 +27,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/Chantouch/jwt-redis.git"
+    "url": "git+https://github.com/Chantouch/jwt-redis.git"
   },
   "bugs": {
-    "url": "git://github.com/Chantouch/jwt-redis.git/issues",
+    "url": "https://github.com/Chantouch/jwt-redis.git/issues",
     "email": "chantouchsek.cs83@gmail.com"
   },
+  "homepage": "https://github.com/Chantouch/jwt-redis.git#readme",
   "devDependencies": {
     "@babel/core": "^7.10.5",
     "@babel/preset-env": "^7.10.4",
