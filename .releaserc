@@ -23,7 +23,8 @@
     [
       "@semantic-release/npm",
       {
-        "tarballDir": "release"
+        "npmPublish": false,
+        "tarballDir": "dist"
       }
     ],
     [
@@ -32,6 +33,14 @@
         "assets": "release/*.tgz"
       }
     ],
-    "@semantic-release/git"
+    [
+      "@semantic-release/git",
+      {
+        "assets": [
+          "package.json",
+          "npm-shrinkwrap.json"
+        ]
+      }
+    ]
   ]
 }
