@@ -1,6 +1,6 @@
 {
   "name": "@chantouchsek/jwt-redis",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -10,7 +10,7 @@
     "start": "ts-node-dev -r tsconfig-paths/register src/JwtRedis.ts",
     "prepare": "npm run build",
     "test": "jest --coverage",
-    "release": "yarn prepare && semantic-release && git push --follow-tags && npm publish"
+    "release": "yarn prepare && semantic-release"
   },
   "files": [
     "dist"
@@ -27,7 +27,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Chantouch/jwt-redis.git"
+    "url": "https://github.com/Chantouch/jwt-redis.git"
   },
   "bugs": {
     "url": "https://github.com/Chantouch/jwt-redis.git/issues",

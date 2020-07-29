@@ -1,8 +1,20 @@
 {
   "release": {
+    "ci": false,
     "branches": [
-      "master",
-      "next"
+      {
+        "name": "master"
+      },
+      {
+        "name": "pre/rc",
+        "channel": "pre/rc",
+        "prerelease": "rc"
+      },
+      {
+        "name": "beta",
+        "channel": "beta",
+        "prerelease": "beta"
+      }
     ]
   }
 }
