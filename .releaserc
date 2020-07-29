@@ -23,8 +23,9 @@
     [
       "@semantic-release/npm",
       {
-        "npmPublish": false,
-        "tarballDir": "dist"
+        "npmPublish": true,
+        "tarballDir": "dist",
+        "access": "public"
       }
     ],
     [
