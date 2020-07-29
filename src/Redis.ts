@@ -1,8 +1,11 @@
-import * as redis from "redis";
+import {RedisClient} from "redis";
 
 
 export default class Redis {
-    constructor(private readonly client: redis.RedisClient) {
+    private readonly client: RedisClient;
+
+    constructor(client: RedisClient) {
+        this.client = client;
     }
 
     /**
