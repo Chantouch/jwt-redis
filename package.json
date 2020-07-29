@@ -49,7 +49,13 @@
     "ts-jest": "^26.1.4",
     "ts-node-dev": "^1.0.0-pre.56",
     "tsconfig-paths": "^3.9.0",
-    "typescript": "^3.9.7"
+    "typescript": "^3.9.7",
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/commit-analyzer": "^8.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "@semantic-release/github": "^7.0.7",
+    "@semantic-release/npm": "^7.0.5",
+    "@semantic-release/release-notes-generator": "^9.0.1"
   },
   "dependencies": {
     "jsonwebtoken": "^8.5.1"
