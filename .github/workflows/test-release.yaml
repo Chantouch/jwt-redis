@@ -31,6 +31,8 @@ jobs:
       # Run tests
       - name: Test
         run: npm test
+        env:
+          CI: true
 
   release:
     # Only release on push to master

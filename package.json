@@ -10,7 +10,8 @@
     "start": "ts-node-dev -r tsconfig-paths/register src/JwtRedis.ts",
     "prepare": "npm run build",
     "test": "jest --coverage",
-    "release": "yarn prepare && semantic-release"
+    "release": "yarn prepare && semantic-release",
+    "prepublish": "yarn test && yarn prepare"
   },
   "files": [
     "dist"
