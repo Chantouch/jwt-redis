@@ -46,7 +46,7 @@
     "jest": "^26.1.0",
     "redis-mock": "^0.50.0",
     "rimraf": "^3.0.2",
-    "semantic-release": "^17.1.1",
+    "semantic-release": "^19.0.3",
     "ts-jest": "^26.1.4",
     "ts-node-dev": "^1.0.0-pre.56",
     "tsconfig-paths": "^3.9.0",
