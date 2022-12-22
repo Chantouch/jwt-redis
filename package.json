@@ -59,7 +59,7 @@
     "@semantic-release/release-notes-generator": "^9.0.1"
   },
   "dependencies": {
-    "jsonwebtoken": "^8.5.1"
+    "jsonwebtoken": "^9.0.0"
   },
   "peerDependencies": {
     "@types/redis": "^2.8.25",
